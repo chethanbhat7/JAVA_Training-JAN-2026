@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/mckb/Java Training/.metadata/.plugins/org.eclipse.jdt.core
+1033186897.index
+1865797976.index
+4038280034.index
