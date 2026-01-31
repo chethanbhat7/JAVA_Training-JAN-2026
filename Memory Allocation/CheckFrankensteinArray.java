@@ -1,30 +1,21 @@
 class CheckFrankensteinArray {
     public static String Check(int num)
-    {
-        int num2=num*2;
-        int num3=num*3;
+    {   
+        int arrofnums[]=new int[3];
+        arrofnums[0]=num;
+        arrofnums[1]=num*2;
+        arrofnums[2]=num*3;
 
         int arr[]=new int[10];
 
-        while(num!=0)
+        for(Integer ele:arrofnums)
         {
-            int digit=num%10;
+        while(ele!=0)
+        {
+            int digit=ele%10;
             arr[digit]++;
-            num/=10;
+            ele/=10;
         }
-
-        while(num2!=0)
-        {
-            int digit=num2%10;
-            arr[digit]++;
-            num2/=10;
-        }
-
-        while(num3!=0)
-        {
-            int digit=num3%10;
-            arr[digit]++;
-            num3/=10;
         }
 
         for(int i=1;i<arr.length;i++)
