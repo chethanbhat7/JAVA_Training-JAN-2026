@@ -19,12 +19,9 @@ class AshithGF{
 
 
 class OverideEquals {
-     
     public static void main(String[] args) {
         AshithGF Fathima = new AshithGF("Fathima",20);
         AshithGF Gathima = new AshithGF("Fathima",20);
         System.out.println(Fathima.equals(Gathima));
     }
-
-
 }

@@ -11,6 +11,5 @@ class Examples {
         {
             System.out.println(EachChar.charAt(i));
         }
-
     }
 }

@@ -37,7 +37,7 @@ class Print_OnlyChars {
 
     }
     public static void main(String[] args) {
-        String s="         A B C D E F              ";
+        String s="         A B C DddddF             ";
         PrintOnlyChar(s);
     }
 }

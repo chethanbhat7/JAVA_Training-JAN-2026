@@ -7,10 +7,8 @@ class ChiragGF{
     this.id=id;
     this.Name=Name;
     this.age=age;
-    
     }
 
-    
     public String toString()
     {
     return (" Id:"+id+"  Name:"+Name+"  Age:"+age);
