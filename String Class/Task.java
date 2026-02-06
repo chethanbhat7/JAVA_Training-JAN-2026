@@ -7,6 +7,7 @@ class Pen{
 
     private Pen(String name,int price , String Model,Boolean isBallpoint,Boolean isGellPen)
     {
+        
         setter(name,price,Model,isBallpoint,isGellPen);
     }
     public void setter(String name,int price , String Model,Boolean isBallpoint,Boolean isGellPen)
@@ -17,7 +18,7 @@ class Pen{
             this.isBallpoint=isBallpoint;
             this.isGellPen=isGellPen;
     }
-
+    @Override
     public String toString()
     {
         return "Name:"+name+" price:"+price+" Model:"+Model+" isBallPoint:"+isBallpoint+" isGellPen:"+isGellPen;
