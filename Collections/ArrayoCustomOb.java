@@ -14,6 +14,7 @@ public class ArrayoCustomOb {
     arr.add(Ehethan);
     arr.add(Fhethan);
     System.out.println(arr);
+    System.out.println(arr.size());
     }
 }
 
