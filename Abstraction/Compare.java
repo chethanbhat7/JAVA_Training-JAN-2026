@@ -4,10 +4,10 @@ class Compare {
     public static void main(String[] args) {
         
     
-    AshithGF arr[]={new AshithGF("Ashitha",21,10000),new AshithGF("Mashitha",20,20000)};
+    Person arr[]={new Person("Alice",21,10000),new Person("Bob",20,20000)};
 
     Arrays.sort(arr);
-        for (AshithGF person : arr) {
+        for (Person person : arr) {
             System.out.println(person);
         }
     }

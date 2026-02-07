@@ -1,8 +1,8 @@
 class Parent{
-    String name="Ashith";
+    String name="John";
 }
 class Child extends Parent{
-    String name="Chirag";
+    String name="Jane";
     {
     System.out.println(super.name);
     System.out.println(name);

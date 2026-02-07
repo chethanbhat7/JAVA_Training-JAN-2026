@@ -1,11 +1,11 @@
 
-public class AshithGF implements Comparable<AshithGF>
+public class Person implements Comparable<Person>
 {
     String name;
     int age;
     double salary;
 
-    public AshithGF(String name, int age, double salary)
+    public Person(String name, int age, double salary)
     {
         this.name = name;
         this.age = age;
@@ -19,14 +19,8 @@ public class AshithGF implements Comparable<AshithGF>
     }
 
     // @Override
-    // public int compareTo(AshithGF other)
-    // {
-    //     return this.name.compareToIgnoreCase(other.age);
-    // }
-
-
     @Override
-    public int compareTo(AshithGF other)
+    public int compareTo(Person other)
     {
         return Integer.compare(this.age, other.age);
     }

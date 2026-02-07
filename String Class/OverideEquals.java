@@ -1,16 +1,16 @@
-class AshithGF{
+class EqualsPerson{
     String name;
     int age;
 
-    public boolean equals(AshithGF gf)
+    public boolean equals(EqualsPerson person)
     {
-    if (this.age==gf.age && this.name==gf.name){
+    if (this.age==person.age && this.name==person.name){
         return true;
     }   
     return false;
     }
 
-    public AshithGF(String name,int age)
+    public EqualsPerson(String name,int age)
     {
         this.name=name;
         this.age=age;
@@ -20,8 +20,8 @@ class AshithGF{
 
 class OverideEquals {
     public static void main(String[] args) {
-        AshithGF Fathima = new AshithGF("Fathima",20);
-        AshithGF Gathima = new AshithGF("Fathima",20);
-        System.out.println(Fathima.equals(Gathima));
+        EqualsPerson person1 = new EqualsPerson("John",20);
+        EqualsPerson person2 = new EqualsPerson("John",20);
+        System.out.println(person1.equals(person2));
     }
 }

@@ -15,7 +15,7 @@ class CheckAvgMarks {
     }
 
     public static void main(String[] args) {
-        System.out.println(Check("Chirag",10,20,30));
-        System.out.println(Check("Ashith"));
+        System.out.println(Check("John",10,20,30));
+        System.out.println(Check("Alice"));
     }
 }

@@ -19,9 +19,9 @@ class ChildClass extends ParentClass{
 class Example{
     public static void main(String[] args) {
         ChildClass child=new ChildClass();
-        child.name="Ashith";
+        child.name="John";
         child.age=20;
-        child.address="VCET";
+        child.address="City";
         child.hobby="Body Building";
         System.out.println(child.hobby);
         ChildClass newchild= new ChildClass();

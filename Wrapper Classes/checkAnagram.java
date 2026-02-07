@@ -22,6 +22,6 @@ class checkAnagram {
         else return false;
     }
     public static void main(String[] args) {
-        System.out.println(checkAna("chethan","nahtehc"));
+        System.out.println(checkAna("listen","silent"));
     }
 }

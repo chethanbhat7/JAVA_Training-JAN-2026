@@ -15,6 +15,6 @@ class CheckStringPalindrome {
     }
     public static void main(String[] args) {
         System.out.println(checkpali("BOB"));
-        System.out.println(checkpali("Chethan"));
+        System.out.println(checkpali("HELLO"));
     }
 }

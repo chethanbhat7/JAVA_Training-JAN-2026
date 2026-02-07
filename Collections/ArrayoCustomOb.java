@@ -4,15 +4,15 @@ public class ArrayoCustomOb {
     public static void main(String[] args) {
     
     ArrayList<Person> arr=new ArrayList<>();
-    Person Chethan=new Person("Chethan",20,"VCET");
-    Person Dhethan=new Person("Dhethan",21,"CVET");
-    Person Ehethan=new Person("Ehethan",22,"ECVT");
-    Person Fhethan=new Person("Fhethan",23,"TCEV");
+    Person person1=new Person("John",20,"City1");
+    Person person2=new Person("Alice",21,"City2");
+    Person person3=new Person("Bob",22,"City3");
+    Person person4=new Person("Charlie",23,"City4");
 
-    arr.add(Chethan);
-    arr.add(Dhethan);
-    arr.add(Ehethan);
-    arr.add(Fhethan);
+    arr.add(person1);
+    arr.add(person2);
+    arr.add(person3);
+    arr.add(person4);
     System.out.println(arr);
     System.out.println(arr.size());
     }

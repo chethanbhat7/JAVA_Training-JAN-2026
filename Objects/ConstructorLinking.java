@@ -27,9 +27,9 @@ class ConstructorLinking {
 
     public static void main(String[] args) {
         ConstructorLinking ICons=new ConstructorLinking(101);
-        ConstructorLinking INCons=new ConstructorLinking(101,"Chethan");
-        ConstructorLinking INACons=new ConstructorLinking(101,"Chethan",10);
-        ConstructorLinking INAPCons=new ConstructorLinking(101,"Chethan",10,10202020);
+        ConstructorLinking INCons=new ConstructorLinking(101,"John");
+        ConstructorLinking INACons=new ConstructorLinking(101,"John",10);
+        ConstructorLinking INAPCons=new ConstructorLinking(101,"John",10,9999999999L);
 
     }
 

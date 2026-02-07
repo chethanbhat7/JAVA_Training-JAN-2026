@@ -15,6 +15,6 @@ class ConvUpper {
         return newS;
     }
     public static void main(String[] args) {
-        System.out.println(ToCaps("chethan"));
+        System.out.println(ToCaps("hello"));
     }
 }

@@ -20,8 +20,8 @@ class AccessStatic {
             System.out.println("Name:"+Name+"\nAge"+age+"\nContact:"+Contact+"\nSalary:"+ValueofSalary());
         }
     public static void main(String[] args) {
-        AccessStatic Ramu=new AccessStatic("Ramu",64,"8073468867");
-        Ramu.PrintRecord();
+        AccessStatic emp=new AccessStatic("John",25,"9999999999");
+        emp.PrintRecord();
         
     }
 }

@@ -1,9 +1,9 @@
-class ChiragGF{
+class Student{
     int id;
     String Name;
     int age;
 
-    public ChiragGF(int id,String Name,int age) {
+    public Student(int id,String Name,int age) {
     this.id=id;
     this.Name=Name;
     this.age=age;
@@ -18,7 +18,7 @@ class ChiragGF{
 
 class OvertoString {
     public static void main(String[] args) {
-    ChiragGF Ashith = new ChiragGF(101,"Ashith",60);
-    System.out.println(Ashith.toString());  
+    Student student = new Student(101,"John",20);
+    System.out.println(student.toString());  
     }
 }
