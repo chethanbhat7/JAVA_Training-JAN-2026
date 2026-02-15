@@ -827,11 +827,3 @@ For practical code examples, refer to the individual folders organized by topic.
 
 ---
 
-## Learning Resources
-
-- [Official Java Documentation](https://docs.oracle.com/javase/)
-- Study each folder for topic-specific implementations
-- Practice by modifying and extending the provided examples
-
----
-
